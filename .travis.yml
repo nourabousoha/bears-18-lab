@@ -9,6 +9,7 @@ install:
   - cd ./mern_omment_box
   - npm install 
 script:
-  -npm test
+  - npm test
+  - npm start
   
   
