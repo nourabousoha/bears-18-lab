@@ -1,7 +1,7 @@
 # safelist
 branches:
   only:
-  -master
+  - master
   - nour
 language: node_js
 node_js:
