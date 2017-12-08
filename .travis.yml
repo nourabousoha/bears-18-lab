@@ -1,0 +1,16 @@
+# safelist
+branches:
+  only:
+  -master
+  - nour
+language: node_js
+node_js:
+  - "7"
+install:
+  - cd ./mern_omment_box
+  - npm install 
+script:
+  - npm test
+ 
+  
+  
